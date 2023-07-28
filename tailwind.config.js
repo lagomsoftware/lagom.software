@@ -1,4 +1,5 @@
 const colors = require("tailwindcss/colors");
+const { lagomTheme } = require("./styles/stylesConstants");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -16,6 +17,7 @@ module.exports = {
       },
       colors: {
         gray: colors.neutral,
+        ...lagomTheme.colors,
       },
     },
   },
