@@ -6,7 +6,13 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Lagom Software",
-  description: "Creating something new here.",
+  description:
+    "We're two guys who love crafting high-quality software for the web.",
+  openGraph: {
+    images: [
+      "https://res.cloudinary.com/albin-groen/image/upload/f_auto,q_auto/v1690567677/Lagom/seo.png",
+    ],
+  },
 };
 
 export default function RootLayout({
