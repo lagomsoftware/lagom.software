@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "We're two guys who love crafting high-quality software for the web.",
   openGraph: {
     images: [
-      "https://res.cloudinary.com/albin-groen/image/upload/f_auto,q_auto/v1690567677/Lagom/seo.png",
+      "https://res.cloudinary.com/albin-groen/image/upload/f_auto,q_auto/v1690568301/Lagom/seo.png",
     ],
   },
 };
