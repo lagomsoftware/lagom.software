@@ -1,9 +1,16 @@
+"use client";
 import Image from "next/image";
 import { ArrowRightIcon } from "@heroicons/react/20/solid";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <main className="px-8">
+    <motion.main
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ type: "spring", duration: 1.5, delay: 0.2 }}
+      className="px-8"
+    >
       <div className="flex items-center justify-center min-h-screen mx-auto max-w-screen-md gap-10">
         <div className="grid md:grid-cols-2 gap-y-10 md:gap-x-14 md:gap-y-9">
           <Image
@@ -47,6 +54,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </main>
+    </motion.main>
   );
 }
