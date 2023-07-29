@@ -1,6 +1,7 @@
 import "./globals.css";
 import Footer from "@/components/footer";
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -27,6 +28,8 @@ export default function RootLayout({
         <main className="bg-white dark:bg-black">{children}</main>
 
         <Footer />
+
+        <Analytics />
       </body>
     </html>
   );
