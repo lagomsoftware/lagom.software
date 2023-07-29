@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <motion.main
+    <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ type: "spring", duration: 1.5, delay: 0.2 }}
@@ -54,6 +54,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </motion.main>
+    </motion.div>
   );
 }

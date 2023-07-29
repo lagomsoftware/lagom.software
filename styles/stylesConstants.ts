@@ -1,6 +1,6 @@
 export const lagomTheme = {
   colors: {
-    'moss': {
+    moss: {
       100: "#EAF7E9",
       200: "#D4F0D5",
       300: "#AED3B2",
@@ -12,4 +12,4 @@ export const lagomTheme = {
       900: "#0E3429",
     },
   },
-}
+};

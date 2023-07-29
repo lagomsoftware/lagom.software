@@ -3,12 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    @apply bg-white dark:bg-black dark:text-white;
-  }
-
   body {
-    @apply antialiased;
+    @apply antialiased bg-moss-500 dark:bg-moss-900 dark:text-white;
   }
 }
 
