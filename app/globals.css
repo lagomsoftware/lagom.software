@@ -6,10 +6,8 @@
   body {
     @apply antialiased bg-moss-900 dark:text-white;
   }
-}
 
-@layer components {
-  .link-button {
+  a {
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   }
 }

@@ -17,7 +17,7 @@ export default function Footer() {
 
         <a
           href="https://github.com/lagomsoftware"
-          className="rounded-full opacity-25 hover:opacity-100 transition"
+          className="rounded-full opacity-25 hover:opacity-100 transition focus-visible:opacity-100"
           target="_blank"
           title="GitHub"
         >
